@@ -12,7 +12,11 @@
         <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
         rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Hanalei' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
         <style type="text/css">
+
 
             /* Large desktop */
             @media (min-width: 980px) { 
@@ -35,7 +39,6 @@
                 .linediv-l {
                     border-bottom: 1px white solid;
                 }
-                .linediv-r {
                     border-top: 1px white solid;
                 }
             }
@@ -44,10 +47,19 @@
 
             /* Main body and headings */
             body{
+                /*
                 font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                */
+                font-family: 'Armata', sans-serif;
+               
             }
             .heading, .subheading {
-                font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+                /* font-family: 'Fauna One', serif;
+                */
+                font-family: 'Armata', sans-serif;
+                
+                /*font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+                */
                 text-align: center;
             }
             p.lead {
@@ -68,7 +80,9 @@
                 padding: 2% 0%;
             }
             .actions {
-                background-color: #343434;
+                /* background-color: #343434;
+                */
+                background-color: #99CC99;
                 padding: 3% 0%;
             }
             .video, .thermometer, .order, .social, .statistics {
@@ -128,19 +142,28 @@
         <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
         <!-- http://stackoverflow.com/a/12270322 -->
         <div class="container">
+            <!--
+            <div class="hero-unit">
+                <h1>Korat </h1>
+                <h2>Welcome to realtime application</h2>
+                <p> korat is a M2M (machine to machine) service which is able to coonect any machine and 
+                aqumurate sensor data.</p>
+                <p><a class="btn btn-primary btn-large" href="#">Try it </a></p>
+            </div>
+            -->
             <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
             <!-- www.google.com/fonts/specimen/Ubuntu -->
             <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
             <div class="row-fluid heading">
                 <div class="span12">
-                    <h1>Product</h1>
+                    <h1>Korat</h1>
                 </div>
             </div> 
             <div class="row-fluid subheading">
                 <div class="span12">
                     <!-- Special typography from Bootstrap for lead paragraph. -->
                     <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-                    <p class="lead">One sentence description.</p>
+                    <p class="lead">Real time WEB service for M2M.</p>
                 </div>
             </div>
             <div class="row-fluid pitch">
@@ -162,7 +185,7 @@
                             </div>
                             <div class="span4">
                                 <div class="linediv-c">
-                                    <h3>$6000</h3> <p>of $10,000</p>
+                                    <h3>$3000</h3> <p>of $10,000</p>
                                 </div>
                             </div>
                             <div class="span4">
@@ -176,8 +199,8 @@
                         <!-- Bootstrap progress bar -->
                         <!-- http://twitter.github.io/bootstrap/components.html#progress -->
                         <div class="thermometer progress active">
-                            <div class="bar bar-success" style="width: 60%;"></div>
-                            <div class="bar bar-warning" style="width: 40%;"></div>
+                            <div class="bar bar-success" style="width: 30%;"></div>
+                            <div class="bar bar-warning" style="width: 70%;"></div>
                         </div>
                     </div>
                     <div class="span6 offset3 order">
@@ -200,7 +223,10 @@
             <!-- http://placehold.it -->
             <div class="row-fluid section1">
                 <div class="span5 offset1 asset">
+                    <!--
                     <img class="img-polaroid" src="http://placehold.it/480x300">
+                    -->
+                    <img class="img-polaroid" src="/images/korat-phone.png">
                 </div>
                 <div class="span5 copy">
                     <p>
@@ -245,7 +271,7 @@
             <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
             <div class="row-fluid faq">
                 <div class="span10 offset1">
-                    <h3>FAQ</h3>
+                    <h3>Korat API FAQ</h3>
                     <div class="accordion" id="accordion2">
                         <div class="accordion-group">
                             <div class="accordion-heading">
