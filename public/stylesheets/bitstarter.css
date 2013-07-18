@@ -1,0 +1,92 @@
+/* Large desktop */
+@media (min-width: 980px) { 
+    body {
+        padding-top: 60px;
+    }
+    .linediv-l {
+        border-right: 1px white solid;
+    }
+    .linediv-r {
+        border-left: 1px white solid;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .copy {
+        padding: 2.5% 10%;
+    }
+    .linediv-l {
+        border-bottom: 1px white solid;
+    }
+    border-top: 1px white solid;
+}
+
+/* All form factors */
+
+/* Main body and headings */
+body{
+    /*
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     */
+    font-family: 'Armata', sans-serif;
+}
+.myappname-heading, .myappname-subheading {
+    /* font-family: 'Fauna One', serif;
+     */
+    font-family: 'Armata', sans-serif;
+
+    /*font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    */
+    text-align: center;
+}
+p.myappname-lead {
+    padding-top: 1.5%;
+    font-size: 24px;
+    line-height: 30px;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Video pitch and Action */
+.myappname-pitch {
+    padding: 2.5% 0%;
+}
+.myappname-order {
+    padding: 2% 0%;
+}
+.myappname-actions {
+    /* background-color: #343434;
+     */
+    background-color: #99CC99;
+    padding: 3% 0%;
+}
+.myappname-video, .myappname-thermometer, .myappname-order, .myappname-social, .myappname-statistics {
+    text-align: center;
+}
+.myappname-statistics h3, .myappname-statistics p {
+    color: white;
+}
+
+/* Marketing Copy and Footer */
+.myappname-copy {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: justify;
+}
+.myappname-asset {
+    padding: 2.5% 0%;
+}
+.myappname-footer {
+    color: #cccccc;
+    text-align: center;
+}
+.myappname-footer p {
+    font-size: 11px;
+}
+.myappname-footer a {
+    color: #ccccff;
+}
+
