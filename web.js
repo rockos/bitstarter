@@ -2,7 +2,9 @@ var express = require('express');
 var fs = require('fs');
 
 var app = express.createServer(express.logger());
-app.use(express.static('/home/ubuntu/start_eng/bitstarter/public'));
+/*app.use(express.static('/home/ubuntu/start_eng/bitstarter/public'));
+*/
+app.use(express.static(__dirname+'/public'));
 app.get('/', function(request, response) {
     var data = fs.readFileSync('index.html', 'utf8');
 
